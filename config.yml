@@ -28,7 +28,7 @@ google_analytics_id:
 title: "Argel H Links"
 
 # Avatar image path
-avatar: "./images/profile.jpeg"
+avatar: "./images/avatar.webp"
 
 # Name section text
 name: "@iamargelh"
@@ -142,7 +142,7 @@ links:
 
 # Footer text
 footer: >
-    # Hi there! Follow me on Medium or GitHub, or stay connected on Instagram or LinkedIn.
+    Esta página es una plantilla por mientras. MagicianDragon es pro.
 
 # Footer copyright message
 # Linkyee is a 100% free, open-source project—feel free to modify the copyright message as you like. :)
