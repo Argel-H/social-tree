@@ -1,4 +1,12 @@
 name: 'Automatic build'
+
+# You can specify the default permissions granted to the GITHUB_TOKEN
+# for this workflow by adding the permissions key.
+# This ensures that your workflow has the necessary access to the repository.
+permissions:
+  contents: write # This gives the workflow write access to the repository contents.
+  # Add more permissions here if needed, e.g., packages: write, issues: write, etc.
+
 on:
   push:
     branches:
@@ -13,7 +21,6 @@ on:
     
 jobs:
   continuous-delivery:
-
     runs-on: ubuntu-latest
 
     steps:
